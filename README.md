@@ -100,6 +100,11 @@ Output: []
 Input: root = [1,2], targetSum = 0\
 Output: []
 
+Constraints:
+The number of nodes in the tree is in the range [0, 5000].\
+-1000 <= Node.val <= 1000\
+-1000 <= targetSum <= 1000
+
 # Subarray Product Less Than K
 
 Given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k.
