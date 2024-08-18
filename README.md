@@ -298,12 +298,12 @@ A connected component is a subgraph of a graph in which there exists a path betw
 
 A connected component is said to be complete if there exists an edge between every pair of its vertices.
 
-Example 1:
+Example 1:\
 Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4]]\
 Output: 3\
 Explanation: From the picture above, one can see that all of the components of this graph are complete.
 
-Example 2:
+Example 2:\
 Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4],[3,5]]\
 Output: 1\
 Explanation: The component containing vertices 0, 1, and 2 is complete since there is an edge between every pair of two vertices. On the other hand, the component containing vertices 3, 4, and 5 is not complete since there is no edge between vertices 4 and 5. Thus, the number of complete components in this graph is 1.
